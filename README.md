@@ -1,8 +1,8 @@
 # Mgauss-Android
 
-[cite_start]Mgauss is a cross-platform mobile application developed in Kotlin using Jetpack Compose[cite: 1], designed to serve as a safety tool for industrial workers operating in hazardous environments. 
+Mgauss is a cross-platform mobile application developed in Kotlin using Jetpack Compose, designed to serve as a safety tool for industrial workers operating in hazardous environments. 
 
-[cite_start]By utilizing a lightweight, ~140,000 parameter machine learning model powered by TensorFlow Lite[cite: 4], the app effectively detects electrical anomalies and nearby active AC devices using only the device's built-in magnetometer and rotation vector sensors. The model achieves an impressive 90-91% validation accuracy. 
+By utilizing a lightweight, ~140,000 parameter machine learning model powered by TensorFlow Lite, the app effectively detects electrical anomalies and nearby active AC devices using only the device's built-in magnetometer and rotation vector sensors. The model achieves an impressive 90-91% validation accuracy. 
 
 When an active device is detected, Mgauss alerts the user locally via haptics and an alarm tone, and broadcasts a UDP alert over the local Wi-Fi network to warn other workers running the app in the vicinity.
 
@@ -40,7 +40,7 @@ To run Mgauss on your local machine and deploy it to your Android device:
 
 1. **Clone the repository:**
    ```bash
-   git clone 
+   git clone https://github.com/Nikhilreddy1303/Mgauss-Android.git
 
 2. **Open in Android Studio:**
 Open the project in Android Studio. Ensure your Gradle sync completes successfully. The application requires a minimum SDK of API 26 (Android 8.0).
